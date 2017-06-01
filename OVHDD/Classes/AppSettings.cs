@@ -120,7 +120,6 @@ namespace OVHDD.Classes
 
             //generals
             Initialize("profiles", new List<Profile>());
-            Initialize("lastProfile", 0);
 
             SaveSettingsFile();
         }

@@ -106,9 +106,6 @@ namespace OVHDD.Windows
             {
                 profiles.RemoveAt(cb_profile.SelectedIndex);
                 cb_profile.SelectedIndex = 0;
-                tb_host.Text = "";
-                tb_username.Text = "";
-                tb_password.Password = "";
             }
         }
     }

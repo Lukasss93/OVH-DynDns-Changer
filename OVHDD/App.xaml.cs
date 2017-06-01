@@ -27,7 +27,7 @@ namespace OVHDD
             AppSettings.InitializeSettings();
 
             //start home window
-            new Home2().Show();
+            new Home().Show();
         }
     }
 }
